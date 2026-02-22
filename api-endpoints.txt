@@ -1,0 +1,19 @@
+# API Call Endpoints (Base URL: http://localhost:3000)
+
+## Admin Endpoints
+- POST   http://localhost:3000/admin/register  (Register new admin)
+- POST   http://localhost:3000/admin/login     (Login admin)
+
+## Customer Endpoints
+- POST   http://localhost:3000/customers/      (Save new customer - with auth & profile image)
+
+
+- GET    http://localhost:3000/customers/      (Get all customers - with auth)
+                    http://localhost:3000/customers/
+
+- GET    http://localhost:3000/customers/:id   (Get specific customer by ID - with auth)
+                    http://localhost:3000/customers/3
+
+- PUT    http://localhost:3000/customers/:id   (Update customer by ID - with auth & profile image)
+
+- DELETE http://localhost:3000/customers/:id   (Delete customer by ID - with auth)
